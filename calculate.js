@@ -1,10 +1,13 @@
 // math.js
 // `exports.add = ...`
 const math = require("./math");
-console.log(math); // { add: [Function] }
+console.log(math); // { add: [Function], divide: [Function] }
 
 const sum = math.add(1, 2);
 console.log(sum); // 3
+
+const divided = math.divide(10, 2);
+console.log(divided); //5
 
 // only-subtract.js
 // `module.exports = ...`
