@@ -12,3 +12,11 @@ const subtract = require("./only-subtract");
 
 const deduction = subtract(10, 5);
 console.log(deduction); // 5
+
+// only-multiply.js
+// `function multiply() { ...`
+// `module.exports = multiply;`
+const multiply = require("./only-multiply");
+
+const multiplied = multiply(5, 5);
+console.log(multiplied); // 25
